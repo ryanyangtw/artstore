@@ -73,6 +73,7 @@ GEM
       activerecord (>= 2.3.0)
       rake (>= 0.8.7)
     arel (5.0.1.20140414130214)
+    awesome_print (1.2.0)
     bcrypt (3.1.7)
     better_errors (1.1.0)
       coderay (>= 1.0.0)
@@ -147,6 +148,10 @@ GEM
       guard (~> 2.0)
       multi_json (~> 1.8)
     hike (1.2.3)
+    hirb (0.7.2)
+    hirb-unicode (0.0.5)
+      hirb (~> 0.5)
+      unicode-display_width (~> 0.1.1)
     http_parser.rb (0.6.0)
     i18n (0.6.9)
     interception (0.5)
@@ -325,6 +330,7 @@ GEM
     uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unicode-display_width (0.1.1)
     warden (1.2.3)
       rack (>= 1.0)
     will_paginate (3.0.7)
@@ -338,6 +344,7 @@ PLATFORMS
 DEPENDENCIES
   aasm (~> 3.3.1)
   annotate (~> 2.6.5)
+  awesome_print
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.2.0.0)
@@ -351,6 +358,8 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise (~> 3.2)
   guard-livereload
+  hirb
+  hirb-unicode
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails (~> 5.0.0)

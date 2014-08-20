@@ -82,6 +82,8 @@ gem 'sitemap_generator'
 #fb open graph
 gem 'open_graph_helper', :github => 'techbang/open_graph_helper'
 
+
+
 group :development, :test do
 	gem 'pry-rails'
 	gem 'pry-plus'
@@ -91,7 +93,9 @@ group :development, :test do
 	gem 'guard-livereload'
 	gem 'annotate', '~> 2.6.5'
 	gem 'letter_opener', '~> 1.2.0'
-
+	gem 'awesome_print', :require => false
+	gem 'hirb', :require => false
+	gem 'hirb-unicode', :require => false
 end
 
 

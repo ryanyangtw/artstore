@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Artstore</title>
+  <title>墨 商城</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -18,12 +18,13 @@
 	<meta name="author" content="Ryan Yang">
 
 
-	<%=og_title("The Rock")%>
-	<%=og_type("movie") %>
-	<%=og_url(image_url('logo-artstore.png'))%>
+	<%=og_title("墨 商店")%>
+	<%=og_type("online store") %>
+  <%=og_url(root_url)%>
+	<%=og_image(image_url('logo-artstore.png'))%>
 	<%#=og_image("http://placehold.it/300X300&text=No%20Pic")%>
-	<%=og_site_name("IMDb")%>
-	<%=og_description("Lorem Ipsum ...")%>
+	<%=og_site_name("墨 商店")%>
+	<%=og_description("墨 全世界第一5分鐘內到貨網路商店")%>
 
 </head>
 <body>
